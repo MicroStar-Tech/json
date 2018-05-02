@@ -1,0 +1,51 @@
+nlohmann-json3 (3.1.2-2) unstable; urgency=medium
+
+  * Add missing copyright info (thanks to wookey).
+  * Ship the multi-file version instead of the single-file version.
+
+ -- Hubert Chathi <uhoreg@debian.org>  Wed, 02 May 2018 08:02:01 -0400
+
+nlohmann-json3 (3.1.2-1) unstable; urgency=medium
+
+  * New maintainer for 3.x branch.
+    * API is incompatible with 2.x branch, so new package name.
+  * New upstream version 3.1.2. (Closes: #886865)
+
+ -- Hubert Chathi <uhoreg@debian.org>  Sat, 17 Mar 2018 17:26:03 -0400
+
+nlohmann-json (2.0.6-1) unstable; urgency=medium
+
+  * New upstream version 2.0.5
+  * New upstream version 2.0.6
+
+ -- Muri Nicanor <muri@immerda.ch>  Sun, 23 Oct 2016 22:49:30 +0200
+
+nlohmann-json (2.0.4-1) unstable; urgency=medium
+
+  * New upstream version 2.0.4
+
+ -- Muri Nicanor <muri@immerda.ch>  Mon, 12 Sep 2016 18:28:54 +0200
+
+nlohmann-json (2.0.3-1) unstable; urgency=medium
+
+  * New upstream release 
+
+ -- Muri Nicanor <muri@immerda.ch>  Sun, 04 Sep 2016 19:29:34 +0200
+
+nlohmann-json (2.0.2-1) unstable; urgency=medium
+
+  * New upstream release 
+
+ -- Muri Nicanor <muri@immerda.ch>  Wed, 03 Aug 2016 14:43:22 +0200
+
+nlohmann-json (2.0.1-1) unstable; urgency=medium
+
+  * New upstream release 
+
+ -- Muri Nicanor <muri@immerda.ch>  Fri, 08 Jul 2016 21:27:37 +0200
+
+nlohmann-json (1.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #825623)
+
+ -- Muri Nicanor <muri@immerda.ch>  Sat, 28 May 2016 16:44:47 +0200
