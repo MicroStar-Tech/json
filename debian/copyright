@@ -19,17 +19,9 @@ Copyright: 2016 Muri Nicanor <muri@immerda.ch>
   2018 Hubert Chathi <uhoreg@debian.org>
 License: Expat
 
-Files: benchmarks/thirdparty/benchpress/*
-Copyright: 2015 Christopher Gilbert
-License: Expat
-
-Files: benchmarks/thirdyparty/benchmark/*
+Files: benchmarks/thirdparty/benchmark/*
 Copyright: Numerous, listed in benchmarks/thirdyparty/benchmark/AUTHORS
 License: Apache-2.0
-
-Files: benchmarks/thirdparty/cxxopts/*
-Copyright: 2014 Jarryd Beck
-License: Expat
 
 Files: doc/scripts/send_to_wandbox.py
 Copyright: 2015 Louis Dionne
@@ -61,7 +53,7 @@ Copyright: 2012 Two Blue Cubes Ltd.
  Phil Nash <github@philnash.me>
 License: BSL-1.0
 
-Files: test/thirdparty/Fuzzer
+Files: test/thirdparty/Fuzzer/*
 Copyright: University of Illinois at Urbana-Champaign
 License: U-OF-I-BSD-LIKE
 

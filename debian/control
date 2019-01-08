@@ -2,13 +2,13 @@ Source: nlohmann-json3
 Priority: optional
 Maintainer: Hubert Chathi <uhoreg@debian.org>
 Build-Depends:
- debhelper (>=9),
+ debhelper-compat ( =12),
  doxygen,
  ghostscript,
  graphviz,
  texlive-binaries,
  texlive-latex-base,
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 Section: libs
 Homepage: https://nlohmann.github.io/json/
 

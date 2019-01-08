@@ -5,7 +5,7 @@
 
 
 %:
-	dh $@ 
+	dh $@
 
 override_dh_clean:
 	dh_clean
@@ -13,7 +13,9 @@ override_dh_clean:
 	rm -f -r doc/xml
 
 override_dh_auto_test:
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 	make check
+endif
 
 override_dh_auto_build:
 	make -C doc

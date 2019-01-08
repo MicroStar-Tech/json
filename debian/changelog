@@ -1,3 +1,20 @@
+nlohmann-json3 (3.5.0-0.1) unstable; urgency=medium
+
+  [ Chris Lamb ]
+  * Make build reproducible (Closes: #900551)
+  * Do not ignore nocheck in testsuite (Closes: #900549)
+
+  [ Gianfranco Costamagna ]
+  * Non-maintainer upload
+  * Update to new release (Closes: #917581)
+  * Strip trailing spaces in changelog, control and rules files
+  * Set compat level to 12
+  * Honour no-check
+  * Bump std-version to 4.3.0, no changes required
+  * Fixup copyright file
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 08 Jan 2019 22:44:26 +0100
+
 nlohmann-json3 (3.1.2-2) unstable; urgency=medium
 
   * Add missing copyright info (thanks to wookey).
@@ -28,19 +45,19 @@ nlohmann-json (2.0.4-1) unstable; urgency=medium
 
 nlohmann-json (2.0.3-1) unstable; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
  -- Muri Nicanor <muri@immerda.ch>  Sun, 04 Sep 2016 19:29:34 +0200
 
 nlohmann-json (2.0.2-1) unstable; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
  -- Muri Nicanor <muri@immerda.ch>  Wed, 03 Aug 2016 14:43:22 +0200
 
 nlohmann-json (2.0.1-1) unstable; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
  -- Muri Nicanor <muri@immerda.ch>  Fri, 08 Jul 2016 21:27:37 +0200
 
