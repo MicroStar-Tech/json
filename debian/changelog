@@ -1,3 +1,11 @@
+nlohmann-json3 (3.6.1-0.1~exp1) experimental; urgency=medium
+
+  * New upstream release
+    - Upload to experimental due to freeze
+  * Update copyright file and years
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 16 Apr 2019 19:11:27 +0200
+
 nlohmann-json3 (3.5.0-0.1) unstable; urgency=medium
 
   [ Chris Lamb ]
