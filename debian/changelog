@@ -1,3 +1,10 @@
+nlohmann-json3 (3.6.1-1) unstable; urgency=medium
+
+  * Upload to unstable.
+  * debian/control: add VCS info
+
+ -- Hubert Chathi <uhoreg@debian.org>  Fri, 05 Jul 2019 12:15:55 -0400
+
 nlohmann-json3 (3.6.1-0.1~exp1) experimental; urgency=medium
 
   * New upstream release
