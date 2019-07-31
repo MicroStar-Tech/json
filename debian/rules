@@ -5,19 +5,18 @@
 
 
 %:
-	dh $@
+	dh $@ --buildsystem=cmake
 
-override_dh_clean:
-	dh_clean
+override_dh_auto_clean:
+	dh_auto_clean --buildsystem=cmake
 	make -C doc clean
 	rm -f -r doc/xml
 
-override_dh_auto_test:
-ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
-	make check
-endif
+override_dh_auto_configure:
+	dh_auto_configure -- -DNLOHMANN_JSON_INCLUDE_INSTALL_DIR=include/nlohmann -DJSON_MultipleHeaders=ON
 
 override_dh_auto_build:
+	dh_auto_build --buildsystem=cmake
 	make -C doc
 	rm -f doc/html/*.md5
 	rm -f doc/html/jquery.js

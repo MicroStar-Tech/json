@@ -1,3 +1,9 @@
+nlohmann-json3 (3.6.1-2) unstable; urgency=medium
+
+  * debian/control, debian/rules: use cmake, so that it can be found by cmake
+
+ -- Hubert Chathi <uhoreg@debian.org>  Tue, 30 Jul 2019 19:39:51 -0400
+
 nlohmann-json3 (3.6.1-1) unstable; urgency=medium
 
   * Upload to unstable.
