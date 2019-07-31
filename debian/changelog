@@ -1,5 +1,6 @@
-nlohmann-json3 (3.6.1-2) unstable; urgency=medium
+nlohmann-json3 (3.7.0-1) unstable; urgency=medium
 
+  * New upstream release.
   * debian/control, debian/rules: use cmake, so that it can be found by cmake
 
  -- Hubert Chathi <uhoreg@debian.org>  Tue, 30 Jul 2019 19:39:51 -0400
