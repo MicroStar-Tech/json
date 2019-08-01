@@ -18,6 +18,7 @@ Vcs-Browser: https://salsa.debian.org/debian/nlohmann-json3
 Package: nlohmann-json3-dev
 Section: libdevel
 Architecture: all
+Multi-Arch: foreign
 Depends:
  ${misc:Depends},
 Conflicts:

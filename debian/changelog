@@ -1,3 +1,10 @@
+nlohmann-json3 (3.7.0-2) unstable; urgency=medium
+
+  * Mark as multi-arch: Foreign (thanks to Helmut Grohne) (Closes: #933593)
+  * debian/patches/cmake_archindep: make cmake version config file arch-indep
+
+ -- Hubert Chathi <uhoreg@debian.org>  Thu, 01 Aug 2019 15:03:56 -0400
+
 nlohmann-json3 (3.7.0-1) unstable; urgency=medium
 
   * New upstream release.
