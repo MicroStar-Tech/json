@@ -1,0 +1,21 @@
+Description: use custom cmake configversion so that it is arch indep
+Author: Hubert Chathi <uhoreg@debian.org>
+Last-Update: 2019-08-01
+
+--- nlohmann-json3-3.7.0.orig/CMakeLists.txt
++++ nlohmann-json3-3.7.0/CMakeLists.txt
+@@ -89,9 +89,11 @@ endif()
+ ## install header files, generate and install cmake config files for find_package()
+ ##
+ include(CMakePackageConfigHelpers)
+-write_basic_package_version_file(
+-    ${NLOHMANN_JSON_CMAKE_VERSION_CONFIG_FILE} COMPATIBILITY SameMajorVersion
+-)
++configure_file(
++    "debian/nlohmann_jsonConfigVersion.cmake.in"
++    ${NLOHMANN_JSON_CMAKE_VERSION_CONFIG_FILE}
++    @ONLY
++)
+ configure_file(
+     ${NLOHMANN_JSON_CMAKE_CONFIG_TEMPLATE}
+     ${NLOHMANN_JSON_CMAKE_PROJECT_CONFIG_FILE}
