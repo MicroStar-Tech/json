@@ -1,3 +1,12 @@
+nlohmann-json3 (3.7.3-1) unstable; urgency=medium
+
+  * Team upload (salsa.d.o namespace)
+    - not committing the new tarball on git
+  * New upstream version 3.7.3
+  * Bump std-version to 4.5.0, no changes required
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 05 Feb 2020 22:38:47 +0100
+
 nlohmann-json3 (3.7.0-2) unstable; urgency=medium
 
   * Mark as multi-arch: Foreign (thanks to Helmut Grohne) (Closes: #933593)

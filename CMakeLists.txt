@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.1)
 ## PROJECT
 ## name and version
 ##
-project(nlohmann_json VERSION 3.7.0 LANGUAGES CXX)
+project(nlohmann_json VERSION 3.7.3 LANGUAGES CXX)
 
 ##
 ## INCLUDE
@@ -89,10 +89,8 @@ endif()
 ## install header files, generate and install cmake config files for find_package()
 ##
 include(CMakePackageConfigHelpers)
-configure_file(
-    "debian/nlohmann_jsonConfigVersion.cmake.in"
-    ${NLOHMANN_JSON_CMAKE_VERSION_CONFIG_FILE}
-    @ONLY
+write_basic_package_version_file(
+    ${NLOHMANN_JSON_CMAKE_VERSION_CONFIG_FILE} COMPATIBILITY SameMajorVersion
 )
 configure_file(
     ${NLOHMANN_JSON_CMAKE_CONFIG_TEMPLATE}
