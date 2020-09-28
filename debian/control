@@ -3,13 +3,14 @@ Priority: optional
 Maintainer: Hubert Chathi <uhoreg@debian.org>
 Build-Depends:
  cmake,
- debhelper-compat ( =12),
+ debhelper-compat ( = 13),
  doxygen,
  ghostscript,
  graphviz,
  texlive-binaries,
  texlive-latex-base,
 Standards-Version: 4.5.0
+Rules-Requires-Root: no
 Section: libs
 Homepage: https://nlohmann.github.io/json/
 Vcs-Git: https://salsa.debian.org/debian/nlohmann-json3.git

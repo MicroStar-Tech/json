@@ -1,3 +1,18 @@
+nlohmann-json3 (3.9.0-1) unstable; urgency=medium
+
+  * Team upload (salsa.d.o namespace)
+    - not committing the new tarball on git
+  * Drop cmake_archindep patch: upstream
+  * New upstream version 3.9.0
+  * Add testsuite, now to have a lighter download tarball,
+    tests are downloading stuff from internet. Convert this into an
+    autopkgtest testsuite
+  * Update copyright file, remove tests
+  * Add R^3: no
+  * Bump compat level to 13
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 27 Jul 2020 18:41:58 +0200
+
 nlohmann-json3 (3.7.3-1) unstable; urgency=medium
 
   * Team upload (salsa.d.o namespace)
