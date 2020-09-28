@@ -16,7 +16,7 @@ override_dh_auto_clean:
 	rm -f -r doc/xml
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DNLOHMANN_JSON_INCLUDE_INSTALL_DIR=include/nlohmann -DJSON_MultipleHeaders=ON -DNLOHMANN_JSON_CONFIG_INSTALL_DIR=lib/cmake/nlohmann_json
+	dh_auto_configure -- -DJSON_MultipleHeaders=ON -DCMAKE_INSTALL_LIBDIR=lib
 
 override_dh_auto_build:
 	dh_auto_build --buildsystem=cmake
