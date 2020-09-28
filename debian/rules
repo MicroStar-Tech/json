@@ -7,6 +7,9 @@
 %:
 	dh $@ --buildsystem=cmake
 
+# they need stuff downloaded from internet, converted into an autopkgtest instead
+override_dh_auto_test:
+
 override_dh_auto_clean:
 	dh_auto_clean --buildsystem=cmake
 	make -C doc clean
