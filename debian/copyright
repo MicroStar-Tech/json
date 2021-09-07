@@ -3,7 +3,7 @@ Upstream-Name: nlohmann-json
 Source: https://github.com/nlohmann/json
 
 Files: *
-Copyright: 2013-2019 Niels Lohmann
+Copyright: 2013-2021 Niels Lohmann
 License: Expat
 
 Files: include/nlohmann/detail/conversions/to_chars.hpp
