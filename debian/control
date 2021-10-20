@@ -9,7 +9,7 @@ Build-Depends:
  graphviz,
  texlive-binaries,
  texlive-latex-base,
-Standards-Version: 4.5.0
+Standards-Version: 4.6.0
 Rules-Requires-Root: no
 Section: libs
 Homepage: https://nlohmann.github.io/json/
