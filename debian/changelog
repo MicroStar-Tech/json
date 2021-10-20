@@ -1,3 +1,11 @@
+nlohmann-json3 (3.10.4-1) unstable; urgency=medium
+
+  * New upstream version 3.10.4
+  * Bump std-version to 4.6.0
+  * Allow-stderror for new doctest deprecation warning (Closes: #994864)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 20 Oct 2021 16:38:01 +0200
+
 nlohmann-json3 (3.10.2-1) unstable; urgency=medium
 
   * Team upload (salsa.d.o namespace)
