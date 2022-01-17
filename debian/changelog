@@ -1,3 +1,10 @@
+nlohmann-json3 (3.10.5-2) unstable; urgency=medium
+
+  * Team upload (salsa.d.o namespace)
+  * Stop installing html files, remove upstream
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 17 Jan 2022 13:43:55 +0100
+
 nlohmann-json3 (3.10.5-1) unstable; urgency=medium
 
   * Team upload (salsa.d.o namespace)
