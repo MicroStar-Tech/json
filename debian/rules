@@ -10,16 +10,5 @@
 # they need stuff downloaded from internet, converted into an autopkgtest instead
 override_dh_auto_test:
 
-override_dh_auto_clean:
-	dh_auto_clean --buildsystem=cmake
-	make -C doc clean
-	rm -f -r doc/xml
-
 override_dh_auto_configure:
 	dh_auto_configure -- -DJSON_MultipleHeaders=ON -DCMAKE_INSTALL_LIBDIR=lib
-
-override_dh_auto_build:
-	dh_auto_build --buildsystem=cmake
-	make -C doc
-	rm -f doc/html/*.md5
-	rm -f doc/html/jquery.js
