@@ -19,15 +19,15 @@ Copyright: 2016 Muri Nicanor <muri@immerda.ch>
   2018 Hubert Chathi <uhoreg@debian.org>
 License: Expat
 
-Files: test/thirdparty/Fuzzer/*
+Files: tests/thirdparty/Fuzzer/*
 Copyright: University of Illinois at Urbana-Champaign
 License: U-OF-I-BSD-LIKE
 
-Files: third_party/amalgamate/*
+Files: tools/amalgamate/*
 Copyright: 2012, Erik Edlund <erik.edlund@32767.se>
 License: BSD-3-clause
 
-Files: third_party/cpplint/*
+Files: tools/cpplint/*
 Copyright: 2009 Google Inc. All rights reserved.
 License: BSD-3-clause
 
