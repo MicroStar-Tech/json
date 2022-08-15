@@ -1,3 +1,9 @@
+nlohmann-json3 (3.11.2-2) unstable; urgency=medium
+
+  * Tweak one install path due to upstream name change
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 15 Aug 2022 17:20:13 +0200
+
 nlohmann-json3 (3.11.2-1) unstable; urgency=medium
 
   * Team upload (salsa.d.o namespace)
