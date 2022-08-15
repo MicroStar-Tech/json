@@ -1,14 +1,8 @@
-nlohmann-json3 (3.11.2-2) unstable; urgency=medium
-
-  * Team upload (salsa.d.o namespace)
-  * Update copyright file
-
- -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 15 Aug 2022 15:35:44 +0200
-
 nlohmann-json3 (3.11.2-1) unstable; urgency=medium
 
   * Team upload (salsa.d.o namespace)
   * New upstream version 3.11.2
+  * Update copyright file
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 15 Aug 2022 15:32:44 +0200
 
